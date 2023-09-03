@@ -1,0 +1,95 @@
+/* Estilos generales para QMainWindow y QWidget */
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+QWidget {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Estilos para QLabel */
+QLabel {
+    font-size: 16px;
+}
+
+
+/* Estilo para los botones en tema claro */
+QPushButton {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #808080; /* Fondo del botón */
+    color: #ffffff; /* Texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-top: 20px; /* Espacio superior */
+}
+
+QPushButton:hover {
+    background-color: #606060; /* Fondo al pasar el mouse */
+}
+
+/* Estilos para QListWidget */
+QListWidget {
+    background-color: #f0f0f0;
+    border: 1px solid #d0d0d0;
+}
+
+/* Estilos para QSlider */
+QSlider {
+    background-color: transparent;
+}
+
+QSlider::handle:horizontal {
+    background-color: #808080; /* Cambiado a gris */
+    border: 1px solid #606060; /* Cambiado a gris más oscuro */
+    width: 12px;
+    height: 12px;
+    margin: -5px 0;
+}
+
+QSlider::handle:horizontal:hover {
+    background-color: #606060; /* Cambiado a gris más oscuro */
+}
+
+/* Estilos para QMenuBar */
+QMenuBar {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+QMenuBar::item {
+    padding: 6px 12px;
+    background-color: #ffffff;
+}
+
+QMenuBar::item:selected {
+    background-color: #808080; /* Cambiado a gris */
+    color: #ffffff;
+}
+
+QMenuBar::item:pressed {
+    background-color: #606060; /* Cambiado a gris más oscuro */
+    color: #ffffff;
+}
+
+/* Estilos para QMenu */
+QMenu {
+    background-color: #ffffff;
+    border: 1px solid #d0d0d0;
+}
+
+QMenu::item {
+    padding: 6px 24px;
+}
+
+QMenu::item:selected {
+    background-color: #808080; /* Cambiado a gris */
+    color: #ffffff;
+}
+
+QMenu::item:pressed {
+    background-color: #606060; /* Cambiado a gris más oscuro */
+    color: #ffffff;
+}
+

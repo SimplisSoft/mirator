@@ -1,0 +1,38 @@
+/* Estilo para el título de la ventana emergente en tema claro */
+QLabel#qt_msgbox_label {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif; /* Aplicación de la fuente Open Sans */
+    color: #000000;
+}
+
+/* Estilo para el contenido del mensaje en tema claro */
+QLabel#qt_msgbox_text {
+    font-size: 7px;
+    font-family: 'Open Sans', sans-serif; /* Aplicación de la fuente Open Sans */
+    color: #333333;
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Estilo para los enlaces */
+QLabel#qt_msgbox_text a {
+    color: #007acc;
+    text-decoration: underline;
+}
+
+/* Estilo para los botones en tema claro */
+QPushButton {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif; /* Aplicación de la fuente Open Sans */
+    background-color: #007acc;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+QPushButton:hover {
+    background-color: #005ca3;
+}

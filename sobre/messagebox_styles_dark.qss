@@ -1,0 +1,48 @@
+/* Estilo para el título de la ventana emergente en tema oscuro */
+
+
+
+QWidget {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+
+
+QLabel#qt_msgbox_label {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff; /* Cambio de color a blanco */
+}
+
+/* Estilo para el contenido del mensaje en tema oscuro */
+QLabel#qt_msgbox_text {
+    font-size: 7px;
+    font-family: 'Open Sans', sans-serif;
+    color: #dddddd; /* Cambio de color a un tono más claro que el fondo */
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Estilo para los enlaces en tema oscuro */
+QLabel#qt_msgbox_text a {
+    color: #00aaff; /* Cambio de color a un tono de azul más claro */
+    text-decoration: underline;
+}
+
+/* Estilo para los botones en tema oscuro */
+QPushButton {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #00aaff; /* Cambio de color a un tono de azul claro */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+QPushButton:hover {
+    background-color: #0088cc; /* Cambio de color del fondo en el estado hover */
+}
